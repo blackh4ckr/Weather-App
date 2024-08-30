@@ -8,6 +8,10 @@ This is a simple weather app built with Node.js and Express. It allows users to 
 
 - Fetch current weather by city name or user location.
 - Display weather data with icons and other relevant details.
+- Date and Time Display: The current date and time are displayed at the top of the page and updated every second.
+- Weather Alerts: If any weather alerts are available, they are displayed in bold red text under the current weather details.
+- Search History: The app keeps track of the cities you've searched for and displays them as clickable items below the search buttons. Clicking on a history item fetches the weather for that location again.
+- Background Image Change Based on Weather: The background of the page changes based on the current weather condition (e.g., clear, cloudy, rainy). This makes the app more visually dynamic.
 - Simple and efficient codebase.
 
 ## Technologies Used
